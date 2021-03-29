@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 1em;
+     padding-top: 90px;
+     background-color: #aaa593;
+   }
+   
+   button {
+     margin: 1em;
+   }
+   
+   .navbar {
+     background-color: #9fbfaf;  
+     color: #b6d7e2;  
+    
+     padding-bottom: 0;
+     padding-left: 0;
+     border-bottom: solid;
+     border-bottom-color: #666;
+     width: 100%;
+   }
+   
+   .nav-link{
+     color: rgb(75, 68, 71);
+   }
+   #navbar-title {
+     padding: 15px;
+     font-size: 30px;
+     color: #fff !important; /* TODO can we do this without the !important */
+   }
+   
+   /* container for nav header */
+   .container{
+     padding-left: 5%;
+     padding-right: 5%;
+     color: #666
+   }
+   
+   .nav-link {
+     text-decoration: none;
+    }
+   
+   .nav-link:hover {
+    background-color: #f7e4ec;  
+   }
+   #details {
+     background-color: #f7e4ec;  
+     margin-top: 20px;
+     margin-bottom: 80px;
+     padding: 40px;
+   } 
+    
+   li {
+     height: 50px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     padding: 5px;
+     background-color: #666;
+     color: #fff;
+     font-size: 1.5em;
+     line-height: 1.5;
+     list-style-type: none;
+   }
+   
+   li:hover {
+     background-color: #9e9268;
+   }
+   
+   #answer-image {
+     float: left;
+     padding-right: 1em;
+     padding-top: 0.25em;
+   }
+   
+   #startQuiz{
+     border-radius: 15%;
+   }
+   
+   .footer {
+     background-color: #9fbfaf;
+     height: 10%;
+     border-top: solid;
+     border-top-color:  #666;  
+     border-top-width: 8px;
+   }
+   
+   .footer-text {
+    width: 100%;
+     text-align: center;
+    font-size: 10px;
+     color:#fff; 
+   }
